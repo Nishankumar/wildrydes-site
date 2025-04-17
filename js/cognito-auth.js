@@ -8,7 +8,7 @@ var WildRydes = window.WildRydes || {};
     var poolData = {
         UserPoolId: _config.cognito.userPoolId,
         ClientId: _config.cognito.userPoolClientId,
-        ClientId: _config.cognito.userPoolClientSecret
+        ClientSecret: _config.cognito.userPoolClientSecret
     };
 
     var userPool;
